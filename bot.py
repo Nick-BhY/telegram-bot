@@ -1,4 +1,6 @@
-from aiogram import Bot, Dispatcher, executor, types
+
+from handlers.common import router as common_router
+from keyboards.inline import some_keyboard
 
 TOKEN = "8190912145:AAF0JZIrSyblCJXtqdJVYEDA_sT0jJI0RIM"
 bot = Bot(token=TOKEN)
